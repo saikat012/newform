@@ -1,0 +1,78 @@
+*{
+padding: 0;
+margin: 0;
+    color: floralwhite;
+}
+.page{overflow: hidden;
+min-height: 800px;
+
+background-image: url(../images/images.jpg)
+}
+.form{
+min-height: 800px;
+width: 50%;
+border: 10px solid floralwhite;
+border-radius: 26px;
+    margin: 150px auto;
+background-image: url(../images/Green-School-Board-Background.jpg)
+}
+.input{
+ width: 200px;
+    padding: 5px;
+    border-radius: 2px;
+    border: 2px solid silver;
+}
+.field:hover{
+    border: 2px solid blue;
+    transition: 2s;
+}
+::-webkit-input-placeholder{
+    color: gray;
+    
+}
+:-mox-input-placeholder{
+    color: gray;
+}
+::-mox-input-placeholder{
+    color: red;
+}
+::-ms-input-placeholder{
+    color: red;
+}
+.email{
+    width: 200px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 2px solid lightgray;
+    
+}
+.select{
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+    
+}
+.option{
+color: gray;
+}
+.pass{
+    
+    width: 200px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 2px solid lightgray;
+}
+
+.form-group{
+    width: 500px;
+    
+    padding: 40px;
+    float: right;
+    text-align: left;
+    font-family: cursive;
+    
+}
+.data{
+    color: black;
+}
